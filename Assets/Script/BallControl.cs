@@ -17,11 +17,11 @@ public class BallControl : MonoBehaviour
         rand = Random.Range(0, 2);
         if (rand == 0)
         {
-            rb2d.AddForce(new Vector2(10, -4));
+            rb2d.AddForce(new Vector2(14, -8));
         }
         else
         {
-            rb2d.AddForce(new Vector2(-10, -4));
+            rb2d.AddForce(new Vector2(-14, -8));
         }
     }
 
@@ -42,11 +42,11 @@ public class BallControl : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
-            rb2d.AddForce(new Vector2(10, -4));
+            rb2d.AddForce(new Vector2(14, -8));
             stageCollisionCount = 0;
         } else if(collision.gameObject.name == "Bear")
         {
-            rb2d.AddForce(new Vector2(-10, -4));
+            rb2d.AddForce(new Vector2(-14, -8));
             stageCollisionCount = 0;
         }
         else 
