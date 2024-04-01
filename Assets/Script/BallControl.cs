@@ -10,7 +10,7 @@ public class BallControl : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        Invoke("GoBall", 0.1f);
+        Invoke("GoBall", 0.2f);
     }
     void GoBall()
     {
