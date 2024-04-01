@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 300697597}
   - component: {fileID: 300697602}
   m_Layer: 0
-  m_Name: Player(2)
+  m_Name: Bear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4382,8 +4382,8 @@ Transform:
   m_GameObject: {fileID: 1878858864}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8315716, y: 3.0997052, z: 9.942262}
-  m_LocalScale: {x: 1.4384, y: 2.2527, z: 1}
+  m_LocalPosition: {x: 1.48, y: 3.8569, z: 9.942262}
+  m_LocalScale: {x: 1.4384, y: 1.5415227, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 861876975}
@@ -4697,7 +4697,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e7467cb61cdf13348a0a96f22d5c1f01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

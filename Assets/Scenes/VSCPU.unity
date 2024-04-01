@@ -3214,7 +3214,7 @@ GameObject:
   - component: {fileID: 1266667878}
   - component: {fileID: 1266667883}
   m_Layer: 0
-  m_Name: CPU
+  m_Name: Bear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
